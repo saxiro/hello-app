@@ -4,6 +4,6 @@ files:
   - source: /
     destination: /home/ubuntu
 hooks:
-  BeforeInstall:
+  ApplicationStart:
     - location: scripts/hello_build_and_up.sh
       runas: root
