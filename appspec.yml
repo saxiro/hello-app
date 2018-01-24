@@ -3,4 +3,4 @@ os: linux
 hooks:
   BeforeInstall:
     - location: scripts/hello_build_and_up.sh
-      timeout: 300
+      timeout: 10
