@@ -1,7 +1,6 @@
 version: 0.0
 os: linux
 hooks:
-  ApplicationStart:
+  BeforeInstall:
     - location: scripts/hello_build_and_up.sh
       timeout: 300
-      runas: ubuntu
