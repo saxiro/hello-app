@@ -5,6 +5,5 @@ files:
     destination: /home/ubuntu
 hooks:
   BeforeInstall:
-    - location: scripts/hello_build_and_up.sh
-      timeout: 10
+    - location: /home/ubuntu/scripts/hello_build_and_up.sh
       runas: ubuntu
