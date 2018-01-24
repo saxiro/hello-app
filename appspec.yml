@@ -4,3 +4,4 @@ hooks:
   BeforeInstall:
     - location: scripts/hello_build_and_up.sh
       timeout: 10
+      runas: ubuntu
