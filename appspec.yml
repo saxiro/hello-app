@@ -5,5 +5,5 @@ files:
     destination: /home/ubuntu
 hooks:
   BeforeInstall:
-    - location: /home/ubuntu/scripts/hello_build_and_up.sh
-      runas: ubuntu
+    - location: scripts/hello_build_and_up.sh
+      runas: root
