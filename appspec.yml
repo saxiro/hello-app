@@ -5,5 +5,5 @@ files:
     destination: /home/ec2-user
 hooks:
   ApplicationStart:
-    - location: scripts/hello_build_and_up.sh
+    - location: deploy.sh
       runas: root
