@@ -5,7 +5,5 @@ services:
       context: .
     tty: true
     ports:
-      - "8080:80"
-    environment:
-      - NGINX_HOST=helloapp.com
-      - NGINX_PORT=8080
+      - "80:80"
+

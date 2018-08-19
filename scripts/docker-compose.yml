@@ -1,7 +1,0 @@
-version: '3'
-services:
-  web:
-    image: cristiancmello/hello-app:latest
-    tty: true
-    ports:
-      - "80:80"
