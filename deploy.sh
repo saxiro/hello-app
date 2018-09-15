@@ -1,4 +1,4 @@
 #!/bin/sh
 
 cd /home/ec2-user
-docker-compose up -d
+docker-compose up -d --build
